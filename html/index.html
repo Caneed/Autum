@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- css引入 -->
+  <link rel="stylesheet" href="../css/default.css">
+  <link rel="stylesheet" href="../css/index.css">
+  <!-- ECharts引入 -->
+  <script type="text/javascript" src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+  <title>Autumn - Find Your Next Binge</title>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="header">
+    <!-- 导航 -->
+    <div class="nav">
+      <!-- 导航左侧悬浮区域 -->
+      <div class="nav_left">
+        <embed src="../src/SVG/logo.svg" type="image/svg+xml">
+      </div>
+      <!-- 导航右侧悬浮区域 -->
+      <div class="nav_right">
+        <object class="search" data="../src/SVG/search.svg" type="image/svg+xml"></object>
+        <object class="user" data="../src/SVG/user.svg" type="image/svg+xml"></object>
+      </div>
+      <!-- 中间区域 -->
+      <div class="nav_middle">
+        <a href="javascript:;" id="home">HOME</a>
+        <a href="javascript:;">IMPORT</a>
+        <a href="javascript:;">EXPLORE</a>
+        <a href="javascript:;">SRATS</a>
+        <a href="javascript:;">CHALLANGES</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- 内容区 -->
+  <div class="container">
+    <!-- 第一行大slogan -->
+    <div class="title">
+      <embed src="../src/SVG/slogan.svg" type="image/svg+xml">
+    </div>
+    <!-- 第二行文字 -->
+    <div class="slogan">
+      <p>Streaming services push their originals.<br>
+        Find the best thing to watch for you, not them.</p>
+    </div>
+    <!-- 第三行流媒体 -->
+    <div class="media_table">
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/global.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/netflix.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/HBO.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/hulu.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/am.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/disney.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/SHO.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/roku.svg" type="image/svg+xml"></span>
+      </a>
+      <a href="javascript:;">
+        <span><embed src="../src/SVG/p.svg" type="image/svg+xml"></span>
+      </a>
+    </div>
+    <!-- 第四行两个按钮 -->
+    <div class="btn_table">
+      <span>
+        <button>SIGN UP</button>
+        <button>TRY IT OUT</button>
+      </span>
+    </div>
+    <!-- 第五行文本和登录 -->
+    <div class="text">
+      <p>Already have an account?</p>
+      <a href="javascript:;">Login</a>
+    </div>
+  </div>
+
+  <!-- 介绍区 -->
+  <div class="introduce">
+    <!-- 提供的服务 -->
+    <div class="step_table">
+      <!-- item -->
+      <div class="step_item">
+        <span>
+          <embed src="../src/SVG/1.svg" type="image/svg+xml">
+        </span>
+        <p>Tell us what you’ve already watched</p>
+        <p>Build your watch history quickly with our onboarding tools</p>
+      </div>
+      <!-- item -->
+      <div class="step_item">
+        <span>
+          <embed src="../src/SVG/2.svg" type="image/svg+xml">
+        </span>
+        <p>We give you great recommendations</p>
+        <p> Great personalization across the services that you already use</p>
+      </div>
+      <!-- item -->
+      <div class="step_item">
+        <span>
+          <embed src="../src/SVG/3.svg" type="image/svg+xml">
+        </span>
+        <p>Watch your new favorite movie or show</p>
+        <p>With just one click we’ll tune into the right service and start playing</p>
+      </div>
+    </div>
+    <!-- item下的文本 -->
+    <div class="txt">
+      <p>With just one click we’ll tune into the right service and start playing</p>
+    </div>
+  </div>
+
+  <!-- 数据统计区 -->
+  <div class="stats">
+    <!-- 标题 -->
+    <div class="sub_title">See Your Stats</div>
+    <p class="tips">We'll analyze all of the movies and TV shows you've seen and generate your stats</p>
+    <div class="box">
+      <!-- 数据统计左侧(明星卡片) -->
+      <div class="card_list">
+        <!-- 题目 -->
+        <p>Top Actors</p>
+        <!-- 卡片表 -->
+        <div class="card_table">
+          <!-- 引入内联框架 -->
+          <iframe src="./starList.html" frameborder="0"></iframe>
+          <!-- 两个按钮 -->
+          <div class="btn_comb">
+            <button>Actors</button>
+            <button>Directors</button>
+          </div>
+        </div>
+      </div>
+      <!-- 数据统计右侧(热点) -->
+      <div class="topic">
+        <!-- 题目 -->
+        <p>Top Traits</p>
+        <!-- 热点话题列表 -->
+        <ul>
+          <li>
+            <embed src="../src/SVG/1.svg" type="image/svg+xml">
+            <p class="topic_item">Strong Female Lead</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/2.svg" type="image/svg+xml">
+            <p class="topic_item">Underdog</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/3.svg" type="image/svg+xml">
+            <p class="topic_item">Nonlinear Narrative</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/4.svg" type="image/svg+xml">
+            <p class="topic_item">Blind Ambition</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/5.svg" type="image/svg+xml">
+            <p class="topic_item">Intrigue</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/6.svg" type="image/svg+xml">
+            <p class="topic_item">Spaghetti Western</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/7.svg" type="image/svg+xml">
+            <p class="topic_item">Superhero</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/8.svg" type="image/svg+xml">
+            <p class="topic_item">Campy</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/9.svg" type="image/svg+xml">
+            <p class="topic_item">Boss From Hell</p>
+          </li>
+          <li>
+            <embed src="../src/SVG/10.svg" type="image/svg+xml">
+            <p class="topic_item">Twist Ending</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+  </div>
+
+  <!-- 图表区 -->
+  <div class="charts">
+    <div class="column_box">
+      <div class="box">
+        <!-- 左侧图表 -->
+        <div class="chart_left">
+          <!-- 标题 -->
+          <div>
+            <p>Media Watched</p>
+          </div>
+          <!-- 图表 -->
+          <div id="pan" class="pan" style="width: 100%; height:400px;"></div>
+        </div>
+
+        <!-- 右侧图表 -->
+        <div class="chart_right">
+          <!-- 标题 -->
+          <div>
+            <p>Titles by Decade</p>
+          </div>
+          <!-- 图表 -->
+          <div class="straight" id="straight" style="width: 100%; height:400px">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- 下方图表 -->
+      <div class="chart_bottom">
+        <!-- 标题 -->
+        <div>
+          <p>Your Genres</p>
+        </div>
+        <div id="chart_sun" class="chart_sun" style="width: 100%; height:500px;">
+        </div>
+      </div>
+    </div>
+
+
+    <!-- 下方图表按钮 -->
+    <div class="report">
+      <button>GET YOUR REPORT NOW</button>
+    </div>
+  </div>
+
+  <!-- 电影选择区 -->
+  <div class="p_box">
+    <div class="pick">
+      <!-- 标题和slogan -->
+      <div>see your picks</div>
+      <div>We take what you've seen and recommend new titles you actually want to watch</div>
+      <!-- 电影选择 -->
+      <div class="film_intro">Biographical Dramas For You</div>
+      <!-- 卡片列表 -->
+      <iframe src="../html/movieCard.html" frameborder="0"></iframe>
+      <!-- 电影选择 -->
+      <div class="film_intro">Because You Watched It's Always Sunny in Philadelphia</div>
+      <!-- 卡片列表 -->
+      <iframe src="../html/movieCard.html" frameborder="0"></iframe>
+      <!-- 电影选择 -->
+      <div class="film_intro">Dramas About Class Differences That Explore Social Issues</div>
+      <!-- 卡片列表 -->
+      <iframe src="../html/movieCard.html" frameborder="0"></iframe>
+    </div>
+  </div>
+
+  <!-- 底部 -->
+  <div class="footer">
+    <div class="cell">
+      <!-- 标题 -->
+      <div>I’M JUST A WEBSITE STANDING IN FRONT OF A PERSON ASKING THEM TO SIGN UP</div>
+      <!-- 副标题 -->
+      <div>(If you don’t get this reference, you need to sign up so we can introduce you to this 90's classic)</div>
+      <!-- 按钮组 -->
+      <div class="btn_table">
+        <span>
+          <button>SIGN UP</button>
+          <button style="  background-color: #f3f3f6;
+          color: #0e123d;">TRY IT OUT</button>
+        </span>
+      </div>
+      <!-- copyright -->
+      <div class="copyright">Powered by The Entertainment Graph ®</div>
+      <!-- 商标 -->
+      <div class="meta">
+        <p>© 2022</p>
+        <embed src="../src/SVG/doggo.svg" type="image/svg+xml">
+          <a href="javascript:;">MediaHound, Inc.</a>
+          <a href="javascript:;">Privacy</a>
+          <span>|</span>
+          <a href="javascript:;">Terms</a>
+      </div>
+    </div>
+  </div>
+</body>
+<script type="text/javascript" src="../js/stright.js"></script>
+<script type="text/javascript" src="../js/pan.js"></script>
+<script type="text/javascript" src="../js/sun.js"></script>
+
+</html>

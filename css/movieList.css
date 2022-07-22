@@ -1,0 +1,39 @@
+.movieList{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 0;
+  margin-right: 10px;
+}
+.movieCard{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.308);
+  backdrop-filter: blur(20px);
+  margin-right: 20px;
+}
+.movieCard img{
+  width: 200px;
+  height: 300px;
+  margin: 0;
+}
+.movieCard a{
+  text-decoration: none;
+  text-align: left;
+  font-family: "josefin sans", Arial, sans-serif;
+  font-weight: 400;
+  color: inherit;
+  font-size: 16px;
+  margin: 10px 10px 30px 10px;
+  color: #ffffff;
+}
+.movieCard div:last-child{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-align: left;
+  margin:0px 10px 10px 15px;
+}
