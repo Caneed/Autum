@@ -20,7 +20,7 @@ option = {
       emphasis: {
         label: {
           show: true,
-          fontSize: '40',
+          fontSize: '24',
           fontWeight: 'bold'
         }
       },
